@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_basic_calculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suryaajha.vscalculator.BasicCalculatorActivity"
+    android:background="@color/blackBackground">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:id="@+id/editPanel"
+        android:textAlignment="gravity"
+        android:onClick="hideSoftKeyBoard"
+        android:padding="20dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:maxLines="1"
+        android:background="@color/whiteBackground"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/trigo"
+                android:background="@color/blue1"
+                android:textColor="@color/colorAccent"
+                android:onClick="changeToTrigoMode"
+                android:textSize="30dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete"
+                android:background="@color/blue1"
+                android:textColor="@color/colorAccent"
+                android:onClick="backspaceFunction"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/log"
+                android:layout_gravity="fill"
+                android:layout_weight="1.16"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/green1"
+                android:textSize="40sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/leftBrace"
+                android:layout_gravity="fill"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/green2"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                android:layout_weight="1.22" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/rightBrace"
+                android:layout_gravity="fill"
+                android:layout_weight="0.54"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/green3"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:text="@string/log10"
+                android:layout_gravity="fill"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/blue2"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/squareTo"
+                android:layout_gravity="fill"
+                android:layout_weight="0.81"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/blue3"
+                android:textSize="40sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/raisedTo"
+                android:layout_gravity="fill"
+                android:layout_weight="0.63"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/blue4"
+                android:textSize="40sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:id="@+id/lastLinearLayout">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/min"
+                android:layout_gravity="fill"
+                android:layout_weight="1.54"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/yellow2"
+                android:textSize="40sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/max"
+                android:layout_gravity="fill"
+                android:layout_weight="1.41"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/yellow3"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/comma"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:onClick="onClickButtonHandler"
+                android:background="@color/yellow4"
+                android:textSize="50sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/developer1"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/developer2"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

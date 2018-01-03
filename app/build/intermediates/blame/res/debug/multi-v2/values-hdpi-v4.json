@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/suryaa/7d52f687-b589-4240-8184-db041ab308c5/Projects/vsCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/suryaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/a519b74738cc83e9c10edd950d93eff9/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/media/suryaa/7d52f687-b589-4240-8184-db041ab308c5/Projects/vsCalculator-20170404T055543Z-001/vsCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/suryaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/a519b74738cc83e9c10edd950d93eff9/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

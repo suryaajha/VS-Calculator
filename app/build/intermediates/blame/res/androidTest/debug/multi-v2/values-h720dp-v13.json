@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/suryaa/7d52f687-b589-4240-8184-db041ab308c5/Projects/vsCalculator/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/suryaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/a519b74738cc83e9c10edd950d93eff9/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

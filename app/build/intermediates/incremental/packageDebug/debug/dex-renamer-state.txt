@@ -1,0 +1,4 @@
+#Mon Dec 25 00:36:51 IST 2017
+base.0=/media/suryaa/7d52f687-b589-4240-8184-db041ab308c5/Projects/vsCalculator-20170404T055543Z-001/vsCalculator/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

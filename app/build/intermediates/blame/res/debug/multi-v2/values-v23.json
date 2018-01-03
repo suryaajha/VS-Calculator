@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/suryaa/7d52f687-b589-4240-8184-db041ab308c5/Projects/vsCalculator-20170404T055543Z-001/vsCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/suryaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/a519b74738cc83e9c10edd950d93eff9/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2184,2299,2406",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35",
+                        "endColumns": "134,134,74,86,12,12,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2179,2294,2401,2514"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/media/suryaa/7d52f687-b589-4240-8184-db041ab308c5/Projects/vsCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/home/suryaa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/a519b74738cc83e9c10edd950d93eff9/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2184,2299,2406",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35",
+                        "endColumns": "134,134,74,86,12,12,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2179,2294,2401,2514"
+                    }
+                }
+            ]
+        }
+    ]
+}

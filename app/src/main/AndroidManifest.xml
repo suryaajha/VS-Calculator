@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suryaajha.vscalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/calculatoricon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BasicCalculatorActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:label="@string/calculator"
+            android:icon="@drawable/calculatoricon"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TrigoCalculatorActivity"
+            android:label="@string/calculator"
+            android:icon="@drawable/calculatoricon"
+            android:parentActivityName=".BasicCalculatorActivity"/>
+        <activity
+            android:name=".ExtrasCalculatorActivity"
+            android:parentActivityName=".BasicCalculatorActivity"></activity>
+    </application>
+
+</manifest>

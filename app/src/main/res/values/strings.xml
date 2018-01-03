@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">vsCalculator</string>
+    <string name="calculator">Calculator</string>
+    <!-- Display EditTexts -->
+    <string name="enter_your_calculation">Calculate</string>
+    <string name="delete">Delete</string>
+    <string name="advanced">Advanced</string>
+    <!-- Digit Names -->
+    <string name="basic">Basic</string>
+    <string name="digit9">9</string>
+    <string name="digit8">8</string>
+    <string name="digit7">7</string>
+    <string name="digit6">6</string>
+    <string name="digit5">5</string>
+    <string name="digit4">4</string>
+    <string name="digit3">3</string>
+    <string name="digit2">2</string>
+    <string name="digit1">1</string>
+    <string name="digit0">0</string>
+    <!-- Operator Names -->
+    <string name="operator_plus">+</string>
+    <string name="operator_minus">-</string>
+    <string name="operator_multiply">\u00d7</string>
+    <string name="operator_divide">\u00f7</string>
+    <string name="operator_equal">=</string>
+    <string name="operator_dot">.</string>
+    <string name="example">\u0026</string>
+
+    <!-- Trigo -->
+    <string name="trigo">Trigo</string>
+    <string name="sin">sin()</string>
+    <string name="cos">cos()</string>
+    <string name="tan">tan()</string>
+    <string name="asin">asin()</string>
+    <string name="acos">acos()</string>
+    <string name="atan">atan()</string>
+    <string name="sinh">sinh()</string>
+    <string name="cosh">cosh()</string>
+    <string name="tanh">tanh()</string>
+
+    <!-- Extraa -->
+    <string name="extras">Extras</string>
+    <string name="log">log()</string>
+    <string name="log10">log10()</string>
+    <string name="raisedTo">^</string>
+    <string name="leftBrace">(</string>
+    <string name="rightBrace">)</string>
+    <string name="squareTo">sqrt()</string>
+    <string name="min">min()</string>
+    <string name="max">max()</string>
+    <string name="comma">,</string>
+
+    <!-- Developers -->
+    <string name="developer1">Suryaa</string>
+    <string name="developer2">Vallabh</string>
+
+    <!-- version -->
+    <string name="version">v1.0</string>
+
+</resources>

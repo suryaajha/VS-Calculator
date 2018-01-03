@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF2C2D31</color>
+
+    <!-- Foour Shades -->
+
+    <color name="green1">#FF74BA4E</color>
+    <color name="green2">#FF6ABE3D</color>
+    <color name="green3">#FF59C122</color>
+    <color name="green4">#FF45BF04</color>
+
+    <color name="yellow1">#FDC1C158</color>
+    <color name="yellow2">#FDC1C140</color>
+    <color name="yellow3">#FDBEBE21</color>
+    <color name="yellow4">#FDB9B902</color>
+
+    <color name="blue1">#FD5D9CBA</color>
+    <color name="blue2">#FD4999BF</color>
+    <color name="blue3">#FD2E90BE</color>
+    <color name="blue4">#FD0182BE</color>
+
+    <color name="violet1">#FD9D5AC1</color>
+    <color name="violet2">#FD9547BF</color>
+    <color name="violet3">#FD8C23C4</color>
+    <color name="violet4">#FD8102C4</color>
+
+    <!-- Background -->
+    <color name="blackBackground">#FD212021</color>
+    <color name="whiteBackground">#FDFAFAFA</color>
+
+
+</resources>
